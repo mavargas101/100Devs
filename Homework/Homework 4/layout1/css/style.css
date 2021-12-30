@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    border: 2px solid black;
+    clear: both;
+    height: 200px;
+
+}
+
+.layer1 section{
+    height:200px;
+    width: 33.33333%;
+    float: left;
+    border: 2px solid black;
+
+}
+
+.layer2 section{
+    height:200px;
+    width: 50%;
+    float: left;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 700px){
+    .layer1 section{
+        width: 100%;
+    }
+    .layer2 section{
+        width: 100%;
+    }
+}

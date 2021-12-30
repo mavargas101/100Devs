@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+header .logo{
+
+}
+nav{
+
+}
+nav ul{
+  display: flex;
+  list-style: none;
+
+}
+
+input{
+
+}

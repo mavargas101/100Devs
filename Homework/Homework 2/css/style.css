@@ -1,0 +1,44 @@
+body{
+  background-color: #87CEEB ;
+  font-family: sans-serif;
+  color: white;
+  max-width: 800px;
+  margin:2em auto;
+  padding:2em;
+  font-size: 22px;
+  border: solid 8px #48CD31;
+}
+img{
+  width: 250px;
+  float: right;
+}
+p{
+  font-size: 22px;
+}
+header{
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+h2{
+  font-weight: 900;
+  font-size: 32px;
+}
+
+ul, li{
+  display:inline-block;
+  font-weight: bold;
+  list-style: none;
+  margin:0 auto;
+}
+li > span{
+  color: #808080;
+  padding: 0 5px;
+}
+li > a{
+  color: #48CD31;
+}
